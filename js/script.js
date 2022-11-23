@@ -16,23 +16,23 @@
 // :party_blob: :party_blob: :party_blob: Buon lavoro e buon divertimento! :arrossire:  :party_blob: :party_blob: :party_blob:
 // (modificato)
 
-const fizz = 'fizz';
-const buzz = 'buzz';
-const fizzbuzz = 'fizzbuzz'
+
 
 for (let i = 1; i <= 100; i++) {
     console.log(i);
-    // if (i++ % 3){
-        
-    // } 
-    
-    // if (index++ % 5){
-        
-    //     console.log(buzz);
-    // }
 
-    // if ((index++ % 3) & (index++ % 5)){
+    if ( (i %  3) == 0 ) {
 
-    //     console.log(fizzbuzz)
-    // }
+        let i = 'fizz';
+        console.log(i);
+    } else if ((i % 5) == 0){
+
+        let i = 'buzz';
+        console.log(i);
+    } 
+        // else (((i %  3) & (i % 5) )== 0) {
+
+        //     let i = 'fizzbuzz';
+        //     console.log(i)
+        // }
 }
